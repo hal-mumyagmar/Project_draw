@@ -33,7 +33,16 @@ void draw() {
     strokeWeight(4); 
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
-    
+    //size of the line 
+  if(key== '1') {
+    strokeWeight(2); 
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  }
+//size of the line
+  if(key== '7') {
+    strokeWeight(7); 
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  }
 //redraws the background when spacebar is pressed(erase)
   if(key== ' ') {
    background(0);
